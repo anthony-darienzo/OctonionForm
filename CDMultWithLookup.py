@@ -121,6 +121,9 @@ def cAVanishes(n):
             return False
     return True
 
+"""
+    Given dimension 2^n, find elements in basis which do not vanish on commuAssociator.
+"""
 def getCANonVanishList(n):
     examplesFound = 0
     counter = 0
